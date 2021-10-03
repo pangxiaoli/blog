@@ -10,11 +10,12 @@
 		type="text/css" crossorigin>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="theme-color" content="#157878">
-	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-	<meta name="description" content="路漫漫其修远兮，吾将上下而求索！">
+	<!-- <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"> -->
 	<link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
 	{% include head-custom.html %}
-	<title>Qiubitの修行路</title>
+	<meta itemprop="name" content="这是分享的标题"/>
+	<meta itemprop="image" content="https://qn.qiubit.cc/head.jpg" />
+	<meta name="description" itemprop="description" content="这是要分享的内容" />
 </head>
 
 <body>
@@ -23,9 +24,6 @@
 		<h2 class="project-tagline">路漫漫其修远兮，吾将上下而求索！</h2>
 		<a href="https://github.com/pangxiaoli/blog/issues" class="btn">View on GitHub</a>
 	</header>
-	<div style="display:none;">
-		<img src="https://qn.qiubit.cc/head.jpg">
-	</div>
 	<main id="content" class="main-content" role="main">
 		{{ content }}
 		<footer class="site-footer" style="text-align: center; line-height: 2;">
