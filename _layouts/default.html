@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "zh-CN" }}">
+<html lang="zh-CN">
 
 <head>
   <meta charset="UTF-8">
@@ -16,22 +16,17 @@
 </head>
 
 <body>
-  <!-- <a id="skip-to-content" href="#content">Skip to the content.</a> -->
-
   <header class="page-header" role="banner">
     <h1 class="project-name">Qiubitの修行路</h1>
-    <h2 class="project-tagline">
-      {{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
-    {% if site.github.is_project_page %}
-    <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
-    {% endif %}
+    <h2 class="project-tagline">路漫漫其修远兮，吾将上下而求索！</h2>
+      <a href="https://github.com/pangxiaoli/blog/issues" class="btn">View on GitHub</a>
   </header>
 
   <main id="content" class="main-content" role="main">
     {{ content }}
-    <footer class="site-footer" style="margin: auto;">
+    <footer class="site-footer">
       <a href="https://beian.miit.gov.cn/#/Integrated/recordQuery">京ICP备2021012262号-2</a> <br>
-      <img src="https://qn.qiubit.cc/备案图标.png" alt=""><a href="http://www.beian.gov.cn/portal/registerSystemInfo">公网安备11010802035180</a>
+      <img src="https://qn.qiubit.cc/备案图标.png" alt=""><a href="http://www.beian.gov.cn/portal/registerSystemInfo">公网安备11010802035180</a> <br>
       <img src='https://icp.gov.moe/images/ico64.png' heigh=20px width=20px><a href=""> <a href="https://icp.gov.moe/?keyword=20218013">萌ICP备20218013</a>
     </footer>
   </main>
