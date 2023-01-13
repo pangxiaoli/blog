@@ -67,6 +67,46 @@ module.exports = {
 		],
 		'no-unused-vars': [
 			'error'
+		],
+		'keyword-spacing': [
+			'error'
+		],
+		'object-curly-spacing': [
+			'error', 
+			'always', 
+			{ 
+				'arraysInObjects': true,
+				'objectsInObjects': true
+			}
+		],
+		'space-in-parens': [
+			'error', 
+			'always',
+			{ 
+				'exceptions': ['empty', '{}'] 
+			}
+		],
+		'space-infix-ops': [
+			'error',
+			{ 
+				'int32Hint': false 
+			}
+		],
+		'arrow-spacing': [ 
+			'error'
+		],
+		'comma-spacing': [
+			'error',
+			{ 
+				'before': false,
+				'after': true 
+			}
+		],
+		'key-spacing': [
+			'error', 
+			{ 
+				'afterColon': true 
+			}
 		]
-	}
+	}	
 };
